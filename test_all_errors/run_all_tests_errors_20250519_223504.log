@@ -1,0 +1,378 @@
+--- ERROR: Testing Model: training_runs/max_cutGATBA100200/paramhash:03e89f4a008bdf973e94fc41f49e67a7a8747478893450addd4377e024c6835c ---
+Timestamp: 2025-05-19 22:35:10
+Command: python test_general.py --model_folder training_runs/max_cutGATBA100200/paramhash:03e89f4a008bdf973e94fc41f49e67a7a8747478893450addd4377e024c6835c --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGATBA400500/paramhash:24efc0653b70594e04a96923bb09c3553b92c4a158261fa995ddc2d69efdfa74 ---
+Timestamp: 2025-05-19 22:35:15
+Command: python test_general.py --model_folder training_runs/max_cutGATBA400500/paramhash:24efc0653b70594e04a96923bb09c3553b92c4a158261fa995ddc2d69efdfa74 --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGATBA50100/paramhash:7645a7647676d31a4bd3e1afcd4980ee3ff7bd894dc693ec2f0b1f335e6c0fbd ---
+Timestamp: 2025-05-19 22:35:21
+Command: python test_general.py --model_folder training_runs/max_cutGATBA50100/paramhash:7645a7647676d31a4bd3e1afcd4980ee3ff7bd894dc693ec2f0b1f335e6c0fbd --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGCNNBA100200/paramhash:e4755c92aed57484e57a0b02d89541672947f39e04e0873ff6ece55f590136d1 ---
+Timestamp: 2025-05-19 22:35:27
+Command: python test_general.py --model_folder training_runs/max_cutGCNNBA100200/paramhash:e4755c92aed57484e57a0b02d89541672947f39e04e0873ff6ece55f590136d1 --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGCNNBA400500/paramhash:0b9bfc5da4662f7b376db8eb3e0b788931454095a9fa012bb4abdc8b034ea9f1 ---
+Timestamp: 2025-05-19 22:35:33
+Command: python test_general.py --model_folder training_runs/max_cutGCNNBA400500/paramhash:0b9bfc5da4662f7b376db8eb3e0b788931454095a9fa012bb4abdc8b034ea9f1 --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGCNNBA50100/paramhash:14667146e25379e1f012a42514734d18aa64d43b0e8946068beab0583bc98e63 ---
+Timestamp: 2025-05-19 22:35:39
+Command: python test_general.py --model_folder training_runs/max_cutGCNNBA50100/paramhash:14667146e25379e1f012a42514734d18aa64d43b0e8946068beab0583bc98e63 --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGINBA100200/paramhash:da42731f08151eac4994465482e0743c042366dc744c46f8955b54b22239e481 ---
+Timestamp: 2025-05-19 22:35:44
+Command: python test_general.py --model_folder training_runs/max_cutGINBA100200/paramhash:da42731f08151eac4994465482e0743c042366dc744c46f8955b54b22239e481 --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGINBA400500/paramhash:7cabd0c5755a4441a02302748b6783085799130984fd4a75f36c6afaeb6a58aa ---
+Timestamp: 2025-05-19 22:35:50
+Command: python test_general.py --model_folder training_runs/max_cutGINBA400500/paramhash:7cabd0c5755a4441a02302748b6783085799130984fd4a75f36c6afaeb6a58aa --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGINBA50100/paramhash:bdae9ba10e3752e03a25c2f6785706ff7a60deb6af3e7380bf6a36ce8b2982e7 ---
+Timestamp: 2025-05-19 22:35:56
+Command: python test_general.py --model_folder training_runs/max_cutGINBA50100/paramhash:bdae9ba10e3752e03a25c2f6785706ff7a60deb6af3e7380bf6a36ce8b2982e7 --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGatedGCNNBA100200/paramhash:1b15bbd4d0bc3cacc5fd5faad6fc857454b98d21413b53498038a822b89018e9 ---
+Timestamp: 2025-05-19 22:36:01
+Command: python test_general.py --model_folder training_runs/max_cutGatedGCNNBA100200/paramhash:1b15bbd4d0bc3cacc5fd5faad6fc857454b98d21413b53498038a822b89018e9 --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGatedGCNNBA400500/paramhash:e7b4f28247bc0f2de6748a478c29a5e4c7d38b479452f1ccf91f498ab4ec24ae ---
+Timestamp: 2025-05-19 22:36:07
+Command: python test_general.py --model_folder training_runs/max_cutGatedGCNNBA400500/paramhash:e7b4f28247bc0f2de6748a478c29a5e4c7d38b479452f1ccf91f498ab4ec24ae --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGatedGCNNBA50100/paramhash:b2dd152b13f6552de417de627cc654379a552808b46abdad95a39c15f0678bad ---
+Timestamp: 2025-05-19 22:36:13
+Command: python test_general.py --model_folder training_runs/max_cutGatedGCNNBA50100/paramhash:b2dd152b13f6552de417de627cc654379a552808b46abdad95a39c15f0678bad --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutLiftMPBA100200/paramhash:e6e644147a9e7c1ad98dbfdefb0dae060659fdcdee1048cae124c5afd752a6dd ---
+Timestamp: 2025-05-19 22:36:18
+Command: python test_general.py --model_folder training_runs/max_cutLiftMPBA100200/paramhash:e6e644147a9e7c1ad98dbfdefb0dae060659fdcdee1048cae124c5afd752a6dd --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutLiftMPBA400500/paramhash:ca276853a967bf620396fe881c8a3baf74d385571e9928d4a56a97370d63a7f9 ---
+Timestamp: 2025-05-19 22:36:24
+Command: python test_general.py --model_folder training_runs/max_cutLiftMPBA400500/paramhash:ca276853a967bf620396fe881c8a3baf74d385571e9928d4a56a97370d63a7f9 --model_file best_model.pt
+Stdout:
+--- utils.parsing.py has been loaded. All functions defined. ---
+    hash_dict defined: True
+    read_params_from_folder defined: True
+    check_args defined: True
+
+Stderr:
+usage: test_general.py [-h] --model-folder MODEL_FOLDER
+                       [--model-file MODEL_FILE] [--test-prefix TEST_PREFIX]
+                       [--use-val-set] [--test-problem-type TEST_PROBLEM_TYPE]
+                       [--test-seed TEST_SEED] [--test-device {cuda,cpu}]
+                       [--stop-early-testing]
+                       [--num-test-attempts NUM_TEST_ATTEMPTS]
+                       [--dataset {ErdosRenyi,BarabasiAlbert,PowerlawCluster,WattsStrogatz,ForcedRB,ENZYMES,PROTEINS,IMDB-BINARY,MUTAG,COLLAB,REDDIT-MULTI-5K,REDDIT-MULTI-12K,REDDIT-BINARY,random-sat,kamis,gset}]
+                       [--data-seed DATA_SEED] [--parallel PARALLEL]
+                       [--num-graphs NUM_GRAPHS] [--infinite]
+                       [--gen-n GEN_N [GEN_N ...]] [--gen-m GEN_M [GEN_M ...]]
+                       [--gen-k GEN_K [GEN_K ...]] [--gen-p GEN_P [GEN_P ...]]
+                       [--positional-encoding {laplacian_eigenvector,random_walk}]
+                       [--pe-dimension PE_DIMENSION] [--split-seed SPLIT_SEED]
+test_general.py: error: the following arguments are required: --model-folder
+
+----------------------------------------------------------------------
+

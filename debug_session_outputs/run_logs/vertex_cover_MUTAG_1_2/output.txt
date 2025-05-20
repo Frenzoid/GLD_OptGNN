@@ -1,0 +1,27 @@
+2025-05-19 19:29:24,286 - INFO - Starting training for vertex_cover_MUTAG (Run ID: [1/2])
+2025-05-19 19:29:24,286 - INFO - Parameters: {'stepwise': True, 'steps': 100000, 'valid_freq': 1000, 'dropout': 0, 'prefix': 'vertex_cover_MUTAG', 'model_type': 'LiftMP', 'dataset': 'MUTAG', 'parallel': 20, 'infinite': True, 'pe_dimension': 8, 'positional_encoding': 'random_walk', 'num_layers': 8, 'rank': 16, 'problem_type': 'vertex_cover', 'batch_size': 32, 'penalty': 0.003, 'lr': 0.001, 'seed': 42, 'run_artifact_dir': 'debug_session_outputs/model_outputs/vertex_cover_MUTAG_1_2'}
+2025-05-19 19:29:24,286 - INFO - Run artifacts will be saved to: debug_session_outputs/model_outputs/vertex_cover_MUTAG_1_2
+2025-05-19 19:29:24,286 - INFO - Detailed logs in: debug_session_outputs/run_logs/vertex_cover_MUTAG_1_2/output.txt
+2025-05-19 19:29:24,287 - INFO - Directory check passed - debug_session_outputs/model_outputs/vertex_cover_MUTAG_1_2 is writable
+2025-05-19 19:29:24,287 - INFO - Calling train.main with run_artifact_dir=debug_session_outputs/model_outputs/vertex_cover_MUTAG_1_2
+2025-05-19 19:29:24,287 - INFO - train.main function: <function main at 0x7fee166b88b0>
+2025-05-19 19:29:24,287 - INFO - train module path: /teamspace/studios/this_studio/bespoke-gnn4do/train.py
+2025-05-19 19:29:59,610 - ERROR - [1/2]: Training failed in 35.32s with error: Parent directory training_runs/vertex_cover_MUTAG/paramhash_b9fc8f1e9cdf does not exist.
+2025-05-19 19:29:59,611 - ERROR - Traceback: Traceback (most recent call last):
+  File "/teamspace/studios/this_studio/bespoke-gnn4do/TUdebug.py", line 142, in train_single
+    main(overrides)
+  File "/teamspace/studios/this_studio/bespoke-gnn4do/train.py", line 112, in main
+    train(args, model, train_loader, optimizer, problem, val_loader=val_loader, test_loader=test_loader)
+  File "/teamspace/studios/this_studio/bespoke-gnn4do/model/training.py", line 195, in train
+    save_model(model, f"{model_folder}/best_model.pt")
+  File "/teamspace/studios/this_studio/bespoke-gnn4do/model/saving.py", line 4, in save_model
+    torch.save(model.state_dict(), path)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/torch/serialization.py", line 964, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/torch/serialization.py", line 828, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/torch/serialization.py", line 792, in __init__
+    torch._C.PyTorchFileWriter(
+RuntimeError: Parent directory training_runs/vertex_cover_MUTAG/paramhash_b9fc8f1e9cdf does not exist.
+
+2025-05-19 19:29:59,613 - INFO - Starting run [2/2] for max_cut on MUTAG

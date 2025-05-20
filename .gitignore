@@ -1,0 +1,10 @@
+*.pyc
+**/.*.swp
+**/.*.swo
+**/__pycache__
+.ipynb_checkpoints
+datasets/
+datasets_complement/
+ErdoSAT_repo/
+*.pt
+*.git

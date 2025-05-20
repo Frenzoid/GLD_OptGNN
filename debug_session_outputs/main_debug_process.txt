@@ -1,0 +1,16 @@
+2025-05-19 19:29:24,285 - INFO - Debug script started
+2025-05-19 19:29:24,285 - INFO - All outputs will be under: /teamspace/studios/this_studio/bespoke-gnn4do/debug_session_outputs
+2025-05-19 19:29:24,285 - INFO - Main process log: debug_session_outputs/main_debug_process.txt
+2025-05-19 19:29:24,285 - INFO - Python version: 3.10.10 (main, Mar 21 2023, 18:45:11) [GCC 11.2.0]
+2025-05-19 19:29:24,285 - INFO - Current working directory: /teamspace/studios/this_studio/bespoke-gnn4do
+2025-05-19 19:29:24,285 - INFO - Available train modules: True
+2025-05-19 19:29:24,285 - INFO - Generated 2 parameter configurations
+2025-05-19 19:29:24,286 - INFO - Starting training for 2 parameter configurations
+2025-05-19 19:29:24,286 - INFO - Output directory: /teamspace/studios/this_studio/bespoke-gnn4do/debug_session_outputs
+2025-05-19 19:29:24,286 - INFO - Done indices: []
+2025-05-19 19:29:24,286 - INFO - Failed indices: []
+2025-05-19 19:29:24,286 - INFO - Starting run [1/2] for vertex_cover on MUTAG
+2025-05-19 19:59:36,401 - INFO - Total training time: 1812.12s.
+2025-05-19 19:59:36,402 - INFO - Successful runs in this session: 1/2
+2025-05-19 19:59:36,402 - INFO - Total runs skipped: 0
+2025-05-19 19:59:36,402 - INFO - Debug script completed

@@ -1,0 +1,10 @@
+2025-05-19 19:29:59,614 - INFO - Starting training for max_cut_MUTAG (Run ID: [2/2])
+2025-05-19 19:29:59,614 - INFO - Parameters: {'stepwise': True, 'steps': 100000, 'valid_freq': 1000, 'dropout': 0, 'prefix': 'max_cut_MUTAG', 'model_type': 'LiftMP', 'dataset': 'MUTAG', 'parallel': 20, 'infinite': True, 'pe_dimension': 2, 'positional_encoding': 'random_walk', 'num_layers': 8, 'rank': 4, 'problem_type': 'max_cut', 'batch_size': 32, 'penalty': 0.003, 'lr': 0.001, 'seed': 42, 'run_artifact_dir': 'debug_session_outputs/model_outputs/max_cut_MUTAG_2_2'}
+2025-05-19 19:29:59,614 - INFO - Run artifacts will be saved to: debug_session_outputs/model_outputs/max_cut_MUTAG_2_2
+2025-05-19 19:29:59,614 - INFO - Detailed logs in: debug_session_outputs/run_logs/max_cut_MUTAG_2_2/output.txt
+2025-05-19 19:29:59,614 - INFO - Directory check passed - debug_session_outputs/model_outputs/max_cut_MUTAG_2_2 is writable
+2025-05-19 19:29:59,614 - INFO - Calling train.main with run_artifact_dir=debug_session_outputs/model_outputs/max_cut_MUTAG_2_2
+2025-05-19 19:29:59,614 - INFO - train.main function: <function main at 0x7fee166b88b0>
+2025-05-19 19:29:59,614 - INFO - train module path: /teamspace/studios/this_studio/bespoke-gnn4do/train.py
+2025-05-19 19:59:36,400 - INFO - [2/2]: Training Completed in 1776.79s.
+2025-05-19 19:59:36,401 - INFO - Success! 2 files created in debug_session_outputs/model_outputs/max_cut_MUTAG_2_2: ['.dir_check', 'done.txt', 'params.txt']

@@ -1,0 +1,21 @@
+--- ERROR: Testing Model: training_runs/sat_random-sat_r64/paramhash:6d285bac007ec468c5df95105af2ead50a657a2f8962d52d084263864ba9177e ---
+Timestamp: 2025-05-20 01:22:07
+Command: python test_general.py --model-folder training_runs/sat_random-sat_r64/paramhash:6d285bac007ec468c5df95105af2ead50a657a2f8962d52d084263864ba9177e --model-file best_model.pt
+Python Exception Traceback / Info:
+Subprocess TimeoutExpired after 1800s
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/vertex_cover_ER_400_500/paramhash:ecf3b1cadb84c23d0fa748ff4ec67cd5fb8c791313bd2f795829be7481742e23 ---
+Timestamp: 2025-05-20 03:39:28
+Command: python test_general.py --model-folder training_runs/vertex_cover_ER_400_500/paramhash:ecf3b1cadb84c23d0fa748ff4ec67cd5fb8c791313bd2f795829be7481742e23 --model-file best_model.pt
+Python Exception Traceback / Info:
+Subprocess TimeoutExpired after 1800s
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/vertex_cover_RB200/paramhash:ecbad02ec728e09d92fe4b2af25f1bf68b0d04f8451cfd61bd6ae36b1937c04c ---
+Timestamp: 2025-05-20 04:42:06
+Command: python test_general.py --model-folder training_runs/vertex_cover_RB200/paramhash:ecbad02ec728e09d92fe4b2af25f1bf68b0d04f8451cfd61bd6ae36b1937c04c --model-file best_model.pt
+Python Exception Traceback / Info:
+Subprocess TimeoutExpired after 1800s
+----------------------------------------------------------------------
+

@@ -1,0 +1,112 @@
+device False
+Namespace(problem_type='vertex_cover', seed='42', prefix='vertex_cover_MUTAG', model_type='LiftMP', num_layers=8, repeat_lift_layers=None, num_layers_project=4, rank=16, dropout=0.0, hidden_channels=32, norm='BatchNorm', heads=4, finetune_from=None, lift_file=None, lr=0.001, batch_size=32, valid_freq=1000, save_freq=1000, penalty=0.003, stepwise=True, steps=100000, epochs=100, train_fraction=0.8, dataset='MUTAG', data_seed=0, parallel=20, num_graphs=1000, infinite=True, gen_n=None, gen_m=None, gen_k=None, gen_p=None, positional_encoding='random_walk', pe_dimension=8, split_seed=0, log_dir='training_runs/vertex_cover_MUTAG/paramhash:c028720466917b47fb49c67d17f479edf496f7e974bb0cf445b09f7325be9f7f', device=device(type='cpu'))
+dataset size: 188
+train/val/test split: 150/19/19
+epoch=0 t=0.12 steps=5 epoch_avg_loss=4.49
+epoch=1 t=0.10 steps=10 epoch_avg_loss=2.96
+epoch=2 t=0.10 steps=15 epoch_avg_loss=1.96
+epoch=3 t=0.10 steps=20 epoch_avg_loss=1.30
+epoch=4 t=0.10 steps=25 epoch_avg_loss=0.88
+epoch=5 t=0.09 steps=30 epoch_avg_loss=0.63
+epoch=6 t=0.09 steps=35 epoch_avg_loss=0.51
+epoch=7 t=0.09 steps=40 epoch_avg_loss=0.48
+epoch=8 t=0.09 steps=45 epoch_avg_loss=0.48
+epoch=9 t=0.09 steps=50 epoch_avg_loss=0.49
+epoch=10 t=0.09 steps=55 epoch_avg_loss=0.49
+epoch=11 t=0.10 steps=60 epoch_avg_loss=0.48
+epoch=12 t=0.10 steps=65 epoch_avg_loss=0.48
+epoch=13 t=0.10 steps=70 epoch_avg_loss=0.47
+epoch=14 t=0.10 steps=75 epoch_avg_loss=0.47
+epoch=15 t=0.10 steps=80 epoch_avg_loss=0.47
+epoch=16 t=0.09 steps=85 epoch_avg_loss=0.47
+epoch=17 t=0.10 steps=90 epoch_avg_loss=0.47
+epoch=18 t=0.09 steps=95 epoch_avg_loss=0.47
+steps=100 t=0.10 epoch_avg_loss=0.47
+[13/36]: Training failed in 1.95s with error: float division by zero
+device False
+Namespace(problem_type='vertex_cover', seed='42', prefix='vertex_cover_ENZYMES', model_type='LiftMP', num_layers=8, repeat_lift_layers=None, num_layers_project=4, rank=16, dropout=0.0, hidden_channels=32, norm='BatchNorm', heads=4, finetune_from=None, lift_file=None, lr=0.001, batch_size=32, valid_freq=1000, save_freq=1000, penalty=0.003, stepwise=True, steps=100000, epochs=100, train_fraction=0.8, dataset='ENZYMES', data_seed=0, parallel=20, num_graphs=1000, infinite=True, gen_n=None, gen_m=None, gen_k=None, gen_p=None, positional_encoding='random_walk', pe_dimension=8, split_seed=0, log_dir='training_runs/vertex_cover_ENZYMES/paramhash:e3c66564eb811f7c3579a82f7cfbf72e97b534dcb7351028cd997af66d713168', device=device(type='cpu'))
+dataset size: 600
+train/val/test split: 480/60/60
+epoch=0 t=0.53 steps=15 epoch_avg_loss=6.00
+epoch=1 t=0.47 steps=30 epoch_avg_loss=2.24
+epoch=2 t=0.49 steps=45 epoch_avg_loss=1.53
+epoch=3 t=0.44 steps=60 epoch_avg_loss=1.52
+epoch=4 t=0.43 steps=75 epoch_avg_loss=1.50
+epoch=5 t=0.43 steps=90 epoch_avg_loss=1.50
+steps=100 t=0.29 epoch_avg_loss=1.50
+epoch=6 t=0.14 steps=105 epoch_avg_loss=1.50
+epoch=7 t=0.50 steps=120 epoch_avg_loss=1.50
+epoch=8 t=0.50 steps=135 epoch_avg_loss=1.50
+epoch=9 t=0.48 steps=150 epoch_avg_loss=1.50
+epoch=10 t=0.43 steps=165 epoch_avg_loss=1.50
+epoch=11 t=0.44 steps=180 epoch_avg_loss=1.50
+epoch=12 t=0.44 steps=195 epoch_avg_loss=1.50
+steps=200 t=0.14 epoch_avg_loss=1.45
+epoch=13 t=0.28 steps=210 epoch_avg_loss=1.53
+epoch=14 t=0.42 steps=225 epoch_avg_loss=1.50
+epoch=15 t=0.42 steps=240 epoch_avg_loss=1.50
+epoch=16 t=0.42 steps=255 epoch_avg_loss=1.50
+epoch=17 t=0.43 steps=270 epoch_avg_loss=1.50
+epoch=18 t=0.43 steps=285 epoch_avg_loss=1.50
+steps=300 t=0.42 epoch_avg_loss=1.50
+[14/36]: Training failed in 9.00s with error: float division by zero
+device False
+Namespace(problem_type='vertex_cover', seed='42', prefix='vertex_cover_PROTEINS', model_type='LiftMP', num_layers=8, repeat_lift_layers=None, num_layers_project=4, rank=4, dropout=0.0, hidden_channels=32, norm='BatchNorm', heads=4, finetune_from=None, lift_file=None, lr=0.001, batch_size=32, valid_freq=1000, save_freq=1000, penalty=0.003, stepwise=True, steps=100000, epochs=100, train_fraction=0.8, dataset='PROTEINS', data_seed=0, parallel=20, num_graphs=1000, infinite=True, gen_n=None, gen_m=None, gen_k=None, gen_p=None, positional_encoding='random_walk', pe_dimension=2, split_seed=0, log_dir='training_runs/vertex_cover_PROTEINS/paramhash:1869917ef4e56b07e17674c4a7159740b3be8de5e87685126597cce431e58049', device=device(type='cpu'))
+dataset size: 1113
+train/val/test split: 890/111/112
+epoch=0 t=0.82 steps=28 epoch_avg_loss=26.67
+epoch=1 t=0.62 steps=56 epoch_avg_loss=20.95
+epoch=2 t=0.67 steps=84 epoch_avg_loss=16.51
+steps=100 t=0.36 epoch_avg_loss=11.81
+epoch=3 t=0.27 steps=112 epoch_avg_loss=9.17
+epoch=4 t=0.62 steps=140 epoch_avg_loss=4.59
+epoch=5 t=0.62 steps=168 epoch_avg_loss=2.03
+epoch=6 t=0.62 steps=196 epoch_avg_loss=1.74
+steps=200 t=0.09 epoch_avg_loss=1.67
+epoch=7 t=0.53 steps=224 epoch_avg_loss=1.74
+epoch=8 t=0.63 steps=252 epoch_avg_loss=1.73
+epoch=9 t=0.61 steps=280 epoch_avg_loss=1.73
+steps=300 t=0.45 epoch_avg_loss=1.72
+epoch=10 t=0.18 steps=308 epoch_avg_loss=1.74
+epoch=11 t=0.61 steps=336 epoch_avg_loss=1.73
+epoch=12 t=0.63 steps=364 epoch_avg_loss=1.73
+epoch=13 t=0.63 steps=392 epoch_avg_loss=1.73
+steps=400 t=0.18 epoch_avg_loss=1.75
+epoch=14 t=0.44 steps=420 epoch_avg_loss=1.72
+epoch=15 t=0.62 steps=448 epoch_avg_loss=1.73
+epoch=16 t=0.61 steps=476 epoch_avg_loss=1.73
+steps=500 t=0.54 epoch_avg_loss=1.72
+epoch=17 t=0.09 steps=504 epoch_avg_loss=1.76
+epoch=18 t=0.62 steps=532 epoch_avg_loss=1.73
+epoch=19 t=0.62 steps=560 epoch_avg_loss=1.73
+epoch=20 t=0.62 steps=588 epoch_avg_loss=1.73
+steps=600 t=0.27 epoch_avg_loss=1.81
+epoch=21 t=0.35 steps=616 epoch_avg_loss=1.66
+epoch=22 t=0.61 steps=644 epoch_avg_loss=1.72
+epoch=23 t=0.62 steps=672 epoch_avg_loss=1.72
+steps=700 t=0.62 epoch_avg_loss=1.72
+[15/36]: Training failed in 15.80s with error: float division by zero
+device False
+Namespace(problem_type='vertex_cover', seed='42', prefix='vertex_cover_IMDB-BINARY', model_type='LiftMP', num_layers=8, repeat_lift_layers=None, num_layers_project=4, rank=8, dropout=0.0, hidden_channels=32, norm='BatchNorm', heads=4, finetune_from=None, lift_file=None, lr=0.001, batch_size=32, valid_freq=1000, save_freq=1000, penalty=0.003, stepwise=True, steps=100000, epochs=100, train_fraction=0.8, dataset='IMDB-BINARY', data_seed=0, parallel=20, num_graphs=1000, infinite=True, gen_n=None, gen_m=None, gen_k=None, gen_p=None, positional_encoding='random_walk', pe_dimension=4, split_seed=0, log_dir='training_runs/vertex_cover_IMDB-BINARY/paramhash:f1489a12c1118e6034954bfe36b490d73c7696ab40025092282c6036c7537205', device=device(type='cpu'))
+dataset size: 1000
+train/val/test split: 800/100/100
+epoch=0 t=0.55 steps=25 epoch_avg_loss=4.97
+epoch=1 t=0.50 steps=50 epoch_avg_loss=2.87
+epoch=2 t=0.55 steps=75 epoch_avg_loss=2.39
+steps=100 t=0.50 epoch_avg_loss=2.37
+[16/36]: Training failed in 2.10s with error: float division by zero
+device False
+Namespace(problem_type='vertex_cover', seed='42', prefix='vertex_cover_COLLAB', model_type='LiftMP', num_layers=8, repeat_lift_layers=None, num_layers_project=4, rank=8, dropout=0.0, hidden_channels=32, norm='BatchNorm', heads=4, finetune_from=None, lift_file=None, lr=0.001, batch_size=32, valid_freq=1000, save_freq=1000, penalty=0.003, stepwise=True, steps=100000, epochs=100, train_fraction=0.8, dataset='COLLAB', data_seed=0, parallel=20, num_graphs=1000, infinite=True, gen_n=None, gen_m=None, gen_k=None, gen_p=None, positional_encoding='random_walk', pe_dimension=4, split_seed=0, log_dir='training_runs/vertex_cover_COLLAB/paramhash:77036d2ca40347221f2083acf6246fdc14eff81adfa9ca086dbbfa6905863efb', device=device(type='cpu'))
+dataset size: 5000
+train/val/test split: 4000/500/500
+steps=100 t=13.25 epoch_avg_loss=34.27
+epoch=0 t=2.98 steps=125 epoch_avg_loss=26.81
+steps=200 t=9.68 epoch_avg_loss=27.48
+epoch=1 t=6.36 steps=250 epoch_avg_loss=26.86
+steps=300 t=6.46 epoch_avg_loss=26.38
+epoch=2 t=9.93 steps=375 epoch_avg_loss=26.76
+steps=400 t=3.13 epoch_avg_loss=26.04
+steps=500 t=13.15 epoch_avg_loss=26.66
+[17/36]: Training failed in 65.12s with error: float division by zero
+device False
+Namespace(problem_type='max_cut', seed='42', prefix='max_cut_ER_400_500', model_type='LiftMP', num_layers=16, repeat_lift_layers=None, num_layers_project=4, rank=16, dropout=0.0, hidden_channels=32, norm='BatchNorm', heads=4, finetune_from=None, lift_file=None, lr=0.001, batch_size=32, valid_freq=1000, save_freq=1000, penalty=0.003, stepwise=True, steps=20000, epochs=100, train_fraction=0.8, dataset='ErdosRenyi', data_seed=0, parallel=20, num_graphs=1000, infinite=True, gen_n=[400, 500], gen_m=None, gen_k=None, gen_p=None, positional_encoding='random_walk', pe_dimension=8, split_seed=0, log_dir='training_runs/max_cut_ER_400_500/paramhash:22ecaeb6ee44feee1ae111660dfd5790da6ea15e2bb593adaef1df124efe9618', device=device(type='cpu'))

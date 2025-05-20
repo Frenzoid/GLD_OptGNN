@@ -1,0 +1,28 @@
+--- ERROR: Testing Model: training_runs/max_cutGATER400500/paramhash:ad6cb6e29871e92a6ada2c95cb1c55958c2775125449d85120f4ed2bc3d37e7b ---
+Timestamp: 2025-05-20 09:28:42
+Command: python test_general.py --model-folder training_runs/max_cutGATER400500/paramhash:ad6cb6e29871e92a6ada2c95cb1c55958c2775125449d85120f4ed2bc3d37e7b --model-file best_model.pt
+Python Exception Traceback / Info:
+Subprocess TimeoutExpired after 1800s
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGINER400500/paramhash:2023e1aa9da6b1cab5bea3bbe1099224b2bbac233ccb927bd76c0e4d2493c7d7 ---
+Timestamp: 2025-05-20 12:40:53
+Command: python test_general.py --model-folder training_runs/max_cutGINER400500/paramhash:2023e1aa9da6b1cab5bea3bbe1099224b2bbac233ccb927bd76c0e4d2493c7d7 --model-file best_model.pt
+Python Exception Traceback / Info:
+Subprocess TimeoutExpired after 1800s
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutLiftMPER400500/paramhash:3db40d6a6f6c1bcbfffda940a9705492f71bff7788497577fa0c223034518e57 ---
+Timestamp: 2025-05-20 13:17:26
+Command: python test_general.py --model-folder training_runs/max_cutLiftMPER400500/paramhash:3db40d6a6f6c1bcbfffda940a9705492f71bff7788497577fa0c223034518e57 --model-file best_model.pt
+Python Exception Traceback / Info:
+Subprocess TimeoutExpired after 1800s
+----------------------------------------------------------------------
+
+--- ERROR: Testing Model: training_runs/max_cutGCNNER400500/paramhash:c893581b567e15415fc50865406568861da123fd6ed2157a624b080f55ed27f8 ---
+Timestamp: 2025-05-20 14:29:49
+Command: python test_general.py --model-folder training_runs/max_cutGCNNER400500/paramhash:c893581b567e15415fc50865406568861da123fd6ed2157a624b080f55ed27f8 --model-file best_model.pt
+Python Exception Traceback / Info:
+Subprocess TimeoutExpired after 1800s
+----------------------------------------------------------------------
+
