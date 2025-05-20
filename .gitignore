@@ -7,4 +7,8 @@ datasets/
 datasets_complement/
 ErdoSAT_repo/
 *.pt
-*.git
+**/*.pt
+**/.git
+.git
+.git/*
+./.git/*
